@@ -620,7 +620,7 @@ li {
   flex-wrap: wrap;
   column-gap: 30px;
   align-items: center;
-  row-gap: 30px;
+  row-gap: 50px;
 }
 
 .title-bg {
@@ -1430,6 +1430,24 @@ li {
   }
 }
 
+@media (max-width: 450px) {
+  #item-bg img {
+    width: 320px;
+  }
+
+  .pricing-item {
+    width: 325px;
+  }
+
+  .title-bg {
+    width: 325px;
+  }
+
+  .item-title #dollar {
+    left: 80px;
+  }
+}
+
 @media (max-width: 447px) {
   .form {
     margin-top: 70px;
@@ -1457,5 +1475,30 @@ li {
 @media (max-width: 401px) {
   .nav-menu {
     column-gap: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .blog-item {
+    align-items: center;
+  }
+
+  .blog-item #seo {
+    width: 320px;
+    max-height: 400px;
+  }
+
+  .blog-item #working2 {
+    width: 320px;
+    max-height: 400px;
+  }
+
+  .blog-item-reverse {
+    align-items: center;
+  }
+
+  .blog-item-reverse #working1 {
+    width: 320px;
+    max-height: 400px;
   }
 }
